@@ -1,5 +1,5 @@
-import { http } from './http';
-import { ui } from './ui';
+import { http } from './http.js';
+import { ui } from './ui.js';
 
 // Get posts on DOM load
 document.addEventListener('DOMContentLoaded', getPosts);
